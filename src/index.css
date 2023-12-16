@@ -6,21 +6,20 @@
 /* Set gray background color and 100% height */
 .sidenav {
   background-color: #f1f1f1;
-  height: 100vh!important;
-  
+  height: 100vh !important;
 }
 
 /* On small screens, set height to 'auto' for the grid */
 @media screen and (max-width: 767px) {
   .row.content {
-    height: auto;
+    height: 100vh;
   }
 }
 
 /* ----------------------------------------------Slider----------------------------------------------------------------------- */
 .totalslider {
   background: var(--Secondary, #f5f5f5) !important;
-  height: 168vh!important;
+  height: 168vh !important;
 }
 
 /* ------------------------------------------- logo---------------------------------------------------------------------- */
@@ -68,11 +67,10 @@
   gap: 16px !important;
   align-items: flex-start !important;
 }
-.nav li a:hover{
-  background-color: #203562!important;
- 
+.nav li a:hover {
+  background-color: #203562 !important;
 }
-.mynotes{
+.mynotes {
   color: #f5f5f5 !important;
   font-family: Montserrat;
   font-size: 24px;
@@ -82,25 +80,22 @@
   display: flex;
   gap: 16px !important;
   align-items: flex-start !important;
-
 }
-.mynotes li a:hover{
- background-color:#e3e8f8!important;
-
-
+.mynotes li a:hover {
+  background-color: #e3e8f8 !important;
 }
 /* ----------------------------------------------------Notes-Tabs-------------------------------------------------------------- */
 .notes-body {
   background: var(--Primary, #e3e8f8);
-
+  margin-top: 0 !important;
 }
 .notes-text {
   border-radius: 16px;
   opacity: 0.8;
   background: var(--Secondary, #f5f5f5);
   box-shadow: 2px 4px 16px 0px rgba(32, 53, 98, 0.47);
-  height: 366px !important;
-  margin-top: 20px;
+  height: auto !important;
+  margin-top: 0px;
 }
 
 .notes-titel {
@@ -113,11 +108,10 @@
   font-weight: 600;
   line-height: 44.8px; /* 140% */
 }
-h1{
+h1 {
   margin-top: 0px;
   margin-bottom: 10px;
 }
-
 
 /* ------------------------------------------------InputsBox------------------------------------------------------------------ */
 #typeText {
@@ -160,91 +154,81 @@ h1{
   margin-top: 38px;
 }
 
-
-
 /* ---------------------------------------------------------------Notes Cards------------------------------- */
 
-.notesbtn{
-
+.notesbtn {
   display: flex;
-width: 306px;
-padding: 8px 0px;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-gap: 8px;
-border-radius: 8px;
-
+  width: 306px;
+  padding: 8px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 8px;
 }
 
-.notes-ul li a{
-  color: var(--accent, #203562)!important;
-font-family: Montserrat;
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: 33.6px; /* 140% */
+.notes-ul li a {
+  color: var(--accent, #203562) !important;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33.6px; /* 140% */
 }
 
-.sub-title{
-
+.sub-title {
   color: var(--accent, #203562);
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 22.4px; /* 140% */
-background: var(--Primary, #E3E8F8);
-margin-left: 20px!important;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22.4px; /* 140% */
+  background: var(--Primary, #e3e8f8);
+  margin-left: 20px !important;
 }
 /* -------------------------------------------------Cards------------------------------------------------- */
 
-.notes-cards{
-
+.notes-cards {
   width: 317px;
-height: 263px;
-flex-shrink: 0;
-border-radius: 16px;
-background: var(--Secondary, #F5F5F5);
-color: var(--Font, #303030);
+  height: 263px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: var(--Secondary, #f5f5f5);
+  color: var(--Font, #303030);
 
-/* b1 */
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 22.4px; /* 140% */
-border-radius: 16px;
-opacity: 0.8;
-background: var(--Secondary, #F5F5F5);
-box-shadow: 2px 4px 16px 0px rgba(32, 53, 98, 0.47);
-
-
+  /* b1 */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22.4px; /* 140% */
+  border-radius: 16px;
+  opacity: 0.8;
+  background: var(--Secondary, #f5f5f5);
+  box-shadow: 2px 4px 16px 0px rgba(32, 53, 98, 0.47);
 }
-.title-icons{
+.title-icons {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.cards-title{
+.cards-title {
   color: var(--accent, #203562);
-font-family: Montserrat;
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: 33.6px; /* 140% */
-/* display: flex!important;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33.6px; /* 140% */
+  /* display: flex!important;
 flex-wrap: wrap!important; */
-width: 170px!important;
-height: 35px!important;
+  width: 170px !important;
+  height: 35px !important;
 
-overflow-y: auto!important;
-overflow-x: hidden!important;
-
-
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
 }
-.curd-icons{
+.curd-icons {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -256,58 +240,50 @@ overflow-x: hidden!important;
   left: 231px; */
 }
 
-.notes-para{
-
-  height: 148px!important;
+.notes-para {
+  height: 148px !important;
 }
 
 /* -------------------------------------------------CE-button------------------------ */
-.CE-button{
- background-color: #203562;
- color: #E3E8F8;
- font-weight: bold;
- margin: 8px;
- width: 70px;
-
-
+.CE-button {
+  background-color: #203562;
+  color: #e3e8f8;
+  font-weight: bold;
+  margin: 8px;
+  width: 70px;
 }
-.CE-button:hover{
-
-  color: #E3E8F8;
+.CE-button:hover {
+  color: #e3e8f8;
   opacity: 0.7;
 }
 
-
 /* -----------------------------------------------------------date-time--------------------------------------- */
-.date-time{
-
+.date-time {
   color: #000;
 
-/* b1 */
-font-family: sans-serif!important;
-font-size: 16px!important;
-font-style: normal;
-font-weight: 500!important;
-line-height: 22.4px; /* 140% */
-opacity: 0.6;
-display: flex;
-float: left;
-position: absolute;
-top: 237px;
-left: 34px;
-/* margin-bottom: 23px!important; */
-margin: 0%;
-padding: 0%;
+  /* b1 */
+  font-family: sans-serif !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 22.4px; /* 140% */
+  opacity: 0.6;
+  display: flex;
+  float: left;
+  position: absolute;
+  top: 237px;
+  left: 34px;
+  /* margin-bottom: 23px!important; */
+  margin: 0%;
+  padding: 0%;
 }
 
 /* ----------------------------------------------------cards-overflow------------------------------------------------- */
 
-.cards-overflow{
-
-  overflow: auto!important;
+.cards-overflow {
+  overflow: auto !important;
   /* overflow-x: hidden!important;
   overflow-y: hidden!important; */
-
 }
 /* .row.content {
   height: 100vh;
@@ -317,13 +293,10 @@ padding: 0%;
   background: var(--Primary, #e3e8f8);
 } */
 
-
-.total-cards-overflow{
+.total-cards-overflow {
   display: flex;
   flex-wrap: nowrap;
-  overflow: auto!important;
-  
-
+  overflow: auto !important;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -333,6 +306,42 @@ padding: 0%;
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .total-cards-overflow {
--ms-overflow-style: none;  /* IE and Edge */
-scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Add this to your CSS stylesheet */
+.invalid-feedback {
+  color: red;
+  font-size: 12px; /* You can adjust the font size as needed */
+  margin-top: 4px; /* Optional: Add some spacing above the error message */
+}
+
+.notes-title {
+  color: var(--accent, #203562);
+
+  /* H1 */
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44.8px; /* 140% */
+}
+
+.form-control {
+  color: var(--accent, #203562) !important;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44.8px; /* 140% */
+}
+
+#typeText {
+  color: var(--accent, #203562) !important;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44.8px; /* 140% */
 }
